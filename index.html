@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  </head>
+  <style>
+    :root {
+      --clr-1: #000000;
+      --clr-2: #fd6060;
+      --clr-3: #fff970;
+      --clr-4: #6384fa;
+      --clr-5: #8bf27a;
+      --clr-6: #f7c162;
+      --clr-8: #ffffff;
+      --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      --call-to-action: #67e1ec;
+    }
+
+    #img-container {
+      height: 100vh;
+      background-image: url("image.png");
+    }
+    .letter1 {
+      color: var(--clr-8);
+    }
+    .letter2 {
+      color: var(--clr-2);
+    }
+    .letter3 {
+      color: var(--clr-3);
+    }
+    .letter4 {
+      color: var(--clr-4);
+    }
+    .letter5 {
+      color: var(--clr-5);
+    }
+    .letter6 {
+      color: var(--clr-8);
+    }
+    .letter7 {
+      color: var(--clr-2);
+    }
+    .letter8 {
+      color: var(--clr-3);
+    }
+    .letter9 {
+      color: var(--clr-4);
+    }
+    .letter10 {
+      color: var(--clr-5);
+    }
+    #title-holder {
+      height: 100%;
+    }
+    .title {
+      margin: 6px 8px;
+    }
+    @media only screen and (max-width: 991px) {
+      #img-container {
+        height: 40vh;
+        background-image: url("image.png");
+      }
+    }
+    @media only screen and (max-width: 600px) {
+      #img-container {
+        height: 30vh;
+        background-image: url("image.png");
+      }
+    }
+  </style>
+
+  <body>
+    <div class="row gx-0 gy-0" id="main-container">
+      <div class="col-lg-5" id="img-container">
+        <div
+          class="d-flex align-items-center justify-content-center"
+          id="title-holder"
+        >
+          <div class="bg-dark">
+            <h1 class="title">
+              <span class="letter1">P</span>
+              <span class="letter2">I</span>
+              <span class="letter3">X</span>
+              <span class="letter4">E</span>
+              <span class="letter5">L</span>
+              <span> </span>
+              <span class="letter6">P</span>
+              <span class="letter7">A</span>
+              <span class="letter8">I</span>
+              <span class="letter9">N</span>
+              <span class="letter10">T</span>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 bg-dark">
+        <div class="row mx-3 text-light">
+          <div class="mt-lg-5 mt-3">
+            <h2>Embrace the pixels around you!</h2>
+          </div>
+          <br />
+          <p>
+            This is just a sample sign-up page. The developer would improve the
+            project as soon as possible. For now, you can check out my
+            <a class="link-warning" href="https://github.com/roiceee"
+              >github repository</a
+            >.
+          </p>
+          <h4 class="mb-lg-5">Share your art with us!</h4>
+
+          <form action="" method="">
+            <div class="row">
+              <div class="col-md-5 col-6">
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" class="form-control mb-3" />
+
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" class="form-control mb-3" />
+
+                <label for="password">Password</label>
+                <input type="text" name="lastname" class="form-control mb-3" />
+              </div>
+              <div class="col-md-5 col-6">
+                <label for="firstname">Email</label>
+                <input type="text" name="firstname" class="form-control mb-3" />
+
+                <label for="lastname">Password</label>
+                <input type="text" name="lastname" class="form-control mb-3" />
+
+                <label for="password">Confirm Password</label>
+                <input type="text" name="lastname" class="form-control mb-3" />
+              </div> 
+            </div>
+            <button
+            type="submit"
+            class="btn btn-warning col-3"
+            id="submit-button"
+          >
+            Submit
+          </button>
+          </form>
+
+          <div class="mt-3">
+        
+            <p class="mt-2">
+              Already have an account?
+              <a href="" class="link-warning">Log in.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
